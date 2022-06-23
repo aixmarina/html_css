@@ -32,9 +32,9 @@ body {
 .sec-home {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     @include section-display();
     .home-cta {
-        align-items: center;
         flex: 1;
         max-width: 500px;
         .cta-text {

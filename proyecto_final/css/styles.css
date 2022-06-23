@@ -123,13 +123,13 @@ body {
 .sec-home {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   width: 100%;
   padding: 3rem;
   margin: auto;
   max-width: 992px;
 }
 .sec-home .home-cta {
-  align-items: center;
   flex: 1;
   max-width: 500px;
 }
