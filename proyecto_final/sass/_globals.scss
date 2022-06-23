@@ -145,3 +145,20 @@ body {
     }
 
 }
+
+.sec-footer-cta {
+    background-color: components.$color-footer;
+    background-image: url(../assets/bg.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding: 5rem;
+    .footer-cta {
+        width: 50%;
+        .cta-title {
+            font-size: 2rem;
+        }
+        .cta-desc {
+            font-size: 1.1rem;
+        }
+    }
+}
